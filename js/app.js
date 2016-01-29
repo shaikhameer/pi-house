@@ -50,7 +50,7 @@
 	// UI EVENTS
 
 	door.addEventListener('change', function(e){
-		publishUpdate({item: 'door', open: this.checked});
+		publishUpdate({item: 'Window', open: this.checked});
 	}, false);
 
 	lightLiving.addEventListener('change', function(e){
